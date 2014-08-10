@@ -6,15 +6,12 @@ jQuery.ui.datenavbar
 :Author: Esun Kim (veblush+git_at_gmail_com)
 :License: The MIT License `LICENSE`_
 
-.. contents::
-    :local:
-
 .. _LICENSE: https://github.com/veblush/jquery-ui-datenavbar/blob/master/LICENSE.txt
 
-Overview
-========
+This is a simple library to provide date navigation bar like following.
 
 .. image:: PREVIEW.png
 
-.. _Example: https://rawgit.com/veblush/jquery-ui-datenavbar/master/example/index.html
+Check example_
 
+.. _example: https://rawgit.com/veblush/jquery-ui-datenavbar/master/example/index.html
