@@ -16,5 +16,6 @@ Overview
 
 .. image:: PREVIEW.png
 
-Example
+
+.. Example: https://rawgit.com/veblush/jquery-ui-datenavbar/master/example/index.html
 
