@@ -1,0 +1,49 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery.ui.Datenavbar Demo</title>
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="jumbotron">
+		<h1>jQuery.ui.Datenavbar</h1>
+		<p class="lead">Simple example.</p>
+	</div>
+
+	<div class="well">
+		<div class="row">
+	        <div class="col-sm-8 col-sm-offset-2">
+				<div id="datenavbar"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<center><h3>Selected: <span id="selected">DATE</span></h3></center>
+	</div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="../lib/datenavbar.js"></script>
+<script>
+	$(function() {
+		$("#datenavbar").datenavbar({
+			date: new Date(),
+			dateFormat: "yy-mm-dd (D)",
+			minDate: -10,
+			maxDate: 10,
+			change: function(event) {
+				$('#selected').html($(this).datenavbar("date").toISOString());
+			},
+		});
+	});
+</script>
+
+</body>
+</html>
