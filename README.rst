@@ -1,5 +1,5 @@
 ===================================================
-jQuery.ui.datenavbar - Simple Date Navigation Bar
+jQuery.ui.datenavbar
 ===================================================
 
 :Version: 1.0
@@ -16,6 +16,5 @@ Overview
 
 .. image:: PREVIEW.png
 
-
-.. Example: https://rawgit.com/veblush/jquery-ui-datenavbar/master/example/index.html
+.. _Example: https://rawgit.com/veblush/jquery-ui-datenavbar/master/example/index.html
 
